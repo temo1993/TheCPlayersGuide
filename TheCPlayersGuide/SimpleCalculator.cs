@@ -4,7 +4,7 @@ namespace TheCPlayersGuide
 {
     public class SimpleCalculator
     {
-        public static void Main(string[] args)
+        public static void Main_(string[] args)
         {
             Console.WriteLine("This is demo of simple calculator. version : 0.1beta");
             Console.WriteLine("Please enter first number");
