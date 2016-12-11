@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TheCPlayersGuide
+namespace Enums
 {
     internal class Cylinders
     {
