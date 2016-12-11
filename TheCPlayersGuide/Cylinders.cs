@@ -4,7 +4,7 @@ namespace TheCPlayersGuide
 {
     internal class Cylinders
     {
-        private static void Main(string[] args)
+        private static void Main3(string[] args)
         {
             // Reading user input
             Console.WriteLine("Please enter a height and radius of cylinder...");

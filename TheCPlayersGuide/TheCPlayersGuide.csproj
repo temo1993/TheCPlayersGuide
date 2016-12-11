@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cylinders.cs" />
+    <Compile Include="EvenOdd.cs" />
+    <Compile Include="PositiveNegative.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
