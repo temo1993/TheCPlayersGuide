@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Cylinders.cs" />
     <Compile Include="EvenOdd.cs" />
+    <Compile Include="FizzBuzz.cs" />
     <Compile Include="PositiveNegative.cs" />
     <Compile Include="PrintAPyramid.cs" />
     <Compile Include="Program.cs" />
