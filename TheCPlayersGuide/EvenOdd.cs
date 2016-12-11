@@ -8,7 +8,7 @@ namespace TheCPlayersGuide
 {
     class EvenOdd
     {
-        public static void Main1()
+        public static void Main_()
         {
             Console.WriteLine("Hello, World!");
             short a = 30000;

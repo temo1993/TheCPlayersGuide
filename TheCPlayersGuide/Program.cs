@@ -4,7 +4,7 @@ namespace TheCPlayersGuide
 {
     internal class Program
     {
-        private static void Main2(string[] args)
+        private static void Main_(string[] args)
         {
             // 128bit C# numeric type decimal for easy money calcs
             decimal number = 1.495m;

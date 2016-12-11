@@ -8,7 +8,7 @@ namespace TheCPlayersGuide
 {
     class PositiveNegative
     {
-        public static void Main(string[] args)
+        public static void Main_(string[] args)
         {
             Console.WriteLine("This is sign checker v0.1beta");
             Console.WriteLine("Please enter first number : ");
