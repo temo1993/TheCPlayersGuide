@@ -12,7 +12,7 @@ namespace TheCPlayersGuide
         }
 
 
-        private static int DieRolledSumer(int numberOfTimes)
+        private static int DieRolledCalc(int numberOfTimes)
         {
             Random random = new Random();
             int temp = 0;
@@ -28,7 +28,7 @@ namespace TheCPlayersGuide
             while (true)
             {
                 Console.Write("Please enter times to roll a dice: ");
-                Console.WriteLine($"Sumed value is {DieRolledSumer(ReadUserInputInt())}");
+                Console.WriteLine($"Sumed value is {DieRolledCalc(ReadUserInputInt())}");
                 Console.Write("To continue press enter or Quit/Exit to finish the program: ");
                 string userInput = ReadUserString();
                 if (string.Equals("Quit", userInput, StringComparison.OrdinalIgnoreCase) ||
