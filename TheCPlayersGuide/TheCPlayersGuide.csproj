@@ -46,6 +46,7 @@
     <Compile Include="ArraysTest.cs" />
     <Compile Include="Cylinders.cs" />
     <Compile Include="DaysOfWeek.cs" />
+    <Compile Include="DieRolling.cs" />
     <Compile Include="EvenOdd.cs" />
     <Compile Include="Fibonacci.cs" />
     <Compile Include="FizzBuzz.cs" />
