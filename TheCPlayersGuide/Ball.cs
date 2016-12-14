@@ -2,7 +2,7 @@
 {
     internal class Ball
     {
-        public Ball(int size, int radius, int color)
+        public Ball(int size, int radius, Color color)
         {
             Size = size;
             Radius = radius;
@@ -13,7 +13,7 @@
         public int Size { get; set; }
         public int Radius { get; set; }
         public int TimesWasThrown { get; set; }
-        public int Color { get; set; }
+        public Color Color { get; set; }
 
         public void Pop()
         {
