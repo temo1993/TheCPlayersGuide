@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArraysTest.cs" />
+    <Compile Include="Ball.cs" />
+    <Compile Include="ColoredBalls.cs" />
+    <Compile Include="Color.cs" />
     <Compile Include="Cylinders.cs" />
     <Compile Include="DaysOfWeek.cs" />
     <Compile Include="DieRolling.cs" />
