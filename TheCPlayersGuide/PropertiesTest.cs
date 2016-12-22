@@ -11,6 +11,7 @@ namespace TheCPlayersGuide
     {
         public static void Main(string[] args)
         {
+            // object initializer syntax
             // Using properties to create objects without need of constructor overloadings.
             // Whats the great feature!
             Book cPlayersGuide = new Book()
