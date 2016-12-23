@@ -9,7 +9,7 @@ namespace TheCPlayersGuide
 {
     class PropertiesTest
     {
-        public static void Main(string[] args)
+        public static void Main_(string[] args)
         {
             // object initializer syntax
             // Using properties to create objects without need of constructor overloadings.
