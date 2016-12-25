@@ -52,6 +52,7 @@
     <Compile Include="DieRolling.cs" />
     <Compile Include="EvenOdd.cs" />
     <Compile Include="Fibonacci.cs" />
+    <Compile Include="FileWrite.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="MonthsEnum.cs" />
     <Compile Include="PositiveNegative.cs" />
@@ -65,6 +66,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="files\country_capital.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="files\some_data.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
