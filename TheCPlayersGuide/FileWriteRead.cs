@@ -11,7 +11,8 @@ namespace TheCPlayersGuide
             StreamWriter writer = new StreamWriter(fileStream);
             writer.Write("Hello ");
             writer.Write("and Goodbye ");
-            writer.Write("at the same time");
+            writer.Write("at the same time.");
+            writer.Write("\nEvery little thing gonna be alright");
             writer.Close();
 
 
