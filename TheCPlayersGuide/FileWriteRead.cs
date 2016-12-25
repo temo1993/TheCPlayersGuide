@@ -3,7 +3,7 @@ using System.IO;
 
 namespace TheCPlayersGuide
 {
-    public class FileWrite
+    public class FileWriteRead
     {
         public static void Main_(string[] args)
         {

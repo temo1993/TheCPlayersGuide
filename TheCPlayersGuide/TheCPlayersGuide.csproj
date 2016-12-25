@@ -52,9 +52,10 @@
     <Compile Include="DieRolling.cs" />
     <Compile Include="EvenOdd.cs" />
     <Compile Include="Fibonacci.cs" />
-    <Compile Include="FileWrite.cs" />
+    <Compile Include="FileWriteRead.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="MonthsEnum.cs" />
+    <Compile Include="ParamsTest.cs" />
     <Compile Include="PositiveNegative.cs" />
     <Compile Include="PrintAPyramid.cs" />
     <Compile Include="Program.cs" />
