@@ -8,7 +8,7 @@ namespace TheCPlayersGuide
 {
     class MathDelegateMain
     {
-        public static void Main(string[] args)
+        public static void Main_(string[] args)
         {
             MathDelegate mathOperation = Add;
         }
