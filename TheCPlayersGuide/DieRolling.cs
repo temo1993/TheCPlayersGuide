@@ -4,7 +4,7 @@ namespace TheCPlayersGuide
 {
     public class DieRolling
     {
-        public static void Main(string[] args)
+        public static void Main_(string[] args)
         {
             Console.WriteLine("             Hello");
             Console.WriteLine("This is dice roll value summer");
