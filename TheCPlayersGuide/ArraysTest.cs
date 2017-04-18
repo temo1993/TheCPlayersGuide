@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO.IsolatedStorage;
+using System.Security.AccessControl;
 
 namespace TheCPlayersGuide
 {
@@ -16,6 +18,49 @@ namespace TheCPlayersGuide
             matrix[2] = new int[2];
             matrix[3] = new int[6];
             matrix[2][1] = 7;
+            for (int i = 0; i < matrix.Length; i++)
+            {
+                for (int j = 0; j < matrix[0].Length; j++)
+                {
+                    matrix[0][j] = j;
+                }
+                for (int j = 0; j < matrix[1].Length; j++)
+                {
+                    matrix[1][j] = j;
+                }
+                for (int j = 0; j < matrix[2].Length; j++)
+                {
+                    matrix[2][j] = j;
+                }
+                for (int j = 0; j < matrix[3].Length; j++)
+                {
+                    matrix[3][j] = j;
+                }
+            }
+
+
+            for (int i = 0; i < matrix[0].Length; i++)
+            {
+                Console.Write(matrix[0][i] + " ");
+            }
+            Console.WriteLine();
+            for (int i = 0; i < matrix[1].Length; i++)
+            {
+                Console.Write(matrix[1][i] + " ");
+            }
+            Console.WriteLine();
+            for (int i = 0; i < matrix[2].Length; i++)
+            {
+                Console.Write(matrix[2][i] + " ");
+            }
+            Console.WriteLine();
+            for (int i = 0; i < matrix[3].Length; i++)
+            {
+                Console.Write(matrix[3][i] + " ");
+            }
+            Console.WriteLine();
+            Console.WriteLine();
+
             
 
 
