@@ -6,7 +6,7 @@ namespace TheCPlayersGuide
 {
     public class ArraysTest
     {
-        public static void Main(string[] args)
+        public static void Main_(string[] args)
         {
             /* Multi-dimensional Array*/
             /* When each array within a larger array has a different length, 
