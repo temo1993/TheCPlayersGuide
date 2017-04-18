@@ -4,7 +4,7 @@ namespace TheCPlayersGuide
 {
     public class ArraysTest
     {
-        public static void Main_(string[] args)
+        public static void Main(string[] args)
         {
             /* Multi-dimensional Array*/
             /* When each array within a larger array has a different length, 
@@ -43,8 +43,19 @@ namespace TheCPlayersGuide
 
 
             int[,] matrix4 = new int[4, 4];
+            int index = 0;
             // Fill in contents for multi-dimensional array
             // Note: GetLength gives back the size of the multi-dimensional array for a specific index.
+            for (int row = 0; row < matrix4.GetLength(0); row++)
+            {
+                for (int column = 0; column < matrix4.GetLength(1); column++)
+                {
+                    matrix4[row, column] = index++;
+                }
+            }
+
+
+
             for (int row = 0; row < matrix4.GetLength(0); row++)
             {
                 for (int column = 0; column < matrix4.GetLength(1); column++)
@@ -58,6 +69,10 @@ namespace TheCPlayersGuide
 
 
             int[] scores = new int[10];
+            for (int i = 0; i < scores.Length; i++)
+            {
+                scores[i] = i;
+            }
             foreach (int score in scores)
                 Console.WriteLine("Someone had this score: " + score);
         } 
