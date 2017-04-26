@@ -1,4 +1,6 @@
-﻿namespace TheCPlayersGuide
+﻿using System;
+
+namespace TheCPlayersGuide
 {
     public class WeekDays
     {
@@ -21,12 +23,13 @@
 
         public static void Main_(string[] args)
         {
-            DaysOfWeek today; // Indicate the type, and give it a name.
-            today = DaysOfWeek.Tuesday;
+            // Indicate the type, and give it a name.
+            var today = DaysOfWeek.Tuesday;
 
             DaysOfWeek yesterday = DaysOfWeek.Sunday;
             if (yesterday == DaysOfWeek.Sunday)
             {
+                Console.WriteLine("Tomorrowa is "  + today);
                 // ...
             }
 
@@ -35,6 +38,7 @@
             int dayAsInt = (int)DaysOfWeek.Sunday;
             DaysOfWeek afterTomorrow = (DaysOfWeek)dayAsInt; // Both of these require an explicit cast.
             DaysOfWeek dayOne = (DaysOfWeek)17; // Legal, but a bad idea...
+            Console.WriteLine(dayOne);
         }
     }
 }

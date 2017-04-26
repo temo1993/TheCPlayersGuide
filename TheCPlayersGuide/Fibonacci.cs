@@ -11,6 +11,7 @@ namespace TheCPlayersGuide
         public static void Main_(string[] args)
         {
             FibonacciCounter(10,"This is fib num ");
+
             for (int i = 1; i <= 10; i++)
             {
                 FibonacciCounter(i, "This is fib num ");
