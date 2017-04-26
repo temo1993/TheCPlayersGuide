@@ -8,7 +8,7 @@ namespace TheCPlayersGuide
 {
     class FactorialRecursion
     {
-        public static void Main(string[] args)
+        public static void Main_(string[] args)
         {
 //            Console.WriteLine(CalcFactorial(2));
 //            Console.WriteLine(CalcFibonacci(3));
