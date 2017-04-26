@@ -20,6 +20,14 @@ namespace TheCPlayersGuide
                 Price = 24.97m, Publisher = "Starbound Software",
                 Title = "The C# Players Guide 2nd Edition", Date = new DateTime(2015, 9, 22)
             };
+            
+            Book anotherBook = new Book()
+            {
+                Author = "Me", Language = "Geo", PaperBack = 121, Date = new DateTime(2017, 4, 26),
+                Price = 0.50m, Publisher = "HomeBook", Title = "C# for Java Developers"
+            };
+            Console.WriteLine(cPlayersGuide.Author);
+            Console.WriteLine(anotherBook.Title);
         }
     }
 
