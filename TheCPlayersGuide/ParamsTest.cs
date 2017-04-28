@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace TheCPlayersGuide
 {
     class ParamsTest
@@ -24,7 +18,7 @@ namespace TheCPlayersGuide
         public static void Main_(string[] args)
         {
             DoSomething(1);
-            DoSomething(10, new []{1,2,3,4,5});
+            DoSomething(10, 1, 2, 3, 4, 5);
             DoSomething(1,2,3,4,5);
         }
     }
