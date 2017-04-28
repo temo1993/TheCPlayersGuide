@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Schema;
@@ -33,14 +34,14 @@ namespace TheCPlayersGuide
 
     class Book
     {
-        private string title;
-        private string author;
-        private DateTime date;
-        private decimal price;
-        private ushort paperBack;
-        private string publisher;
-        private string language;
+        public Book()
+        {
+        }
 
+        public Book(int reviewScore)
+        {
+            ReviewScore = reviewScore;
+        }
 
         public string Title { get; set; }
         public string Author { get; set; }
@@ -49,5 +50,8 @@ namespace TheCPlayersGuide
         public ushort PaperBack { get; set; }
         public string Publisher { get; set; }
         public string Language { get; set; } = "English";
-    }
+
+        public int ReviewScore { get; }
+
+}
 }
