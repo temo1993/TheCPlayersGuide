@@ -67,6 +67,7 @@
     <Compile Include="SimpleCalculator.cs" />
     <Compile Include="StructTest.cs" />
     <Compile Include="CopyArrayAndAddNewItem.cs" />
+    <Compile Include="Test.cs" />
     <Compile Include="XMLDocumentationComment.cs" />
   </ItemGroup>
   <ItemGroup>
