@@ -55,6 +55,10 @@
     <Compile Include="Fibonacci.cs" />
     <Compile Include="FileWriteRead.cs" />
     <Compile Include="FizzBuzz.cs" />
+    <Compile Include="inheritanseTest\Animal.cs" />
+    <Compile Include="inheritanseTest\AnimalMain.cs" />
+    <Compile Include="inheritanseTest\Cat.cs" />
+    <Compile Include="inheritanseTest\Dog.cs" />
     <Compile Include="MathDelegate.cs" />
     <Compile Include="MathDelegateMain.cs" />
     <Compile Include="MonthsEnum.cs" />
