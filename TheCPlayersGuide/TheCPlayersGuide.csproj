@@ -63,6 +63,9 @@
     <Compile Include="MathDelegateMain.cs" />
     <Compile Include="MonthsEnum.cs" />
     <Compile Include="ParamsTest.cs" />
+    <Compile Include="PartialTest\PartialClass.cs" />
+    <Compile Include="PartialTest\PartialClass1.cs" />
+    <Compile Include="PartialTest\PartialMain.cs" />
     <Compile Include="PositiveNegative.cs" />
     <Compile Include="PrintAPyramid.cs" />
     <Compile Include="Program.cs" />
