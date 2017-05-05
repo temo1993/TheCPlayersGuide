@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ArraysTest.cs" />
     <Compile Include="Ball.cs" />
+    <Compile Include="BinaryFileReadWriteTest.cs" />
     <Compile Include="ColoredBalls.cs" />
     <Compile Include="Color.cs" />
     <Compile Include="Cylinders.cs" />
@@ -73,6 +74,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="PropertiesTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadWriteTest.cs" />
+    <Compile Include="ReadWriteTest2.cs" />
     <Compile Include="RefOutExample.cs" />
     <Compile Include="SimpleCalculator.cs" />
     <Compile Include="StructTest.cs" />
@@ -83,8 +86,13 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="files\country_capital.csv" />
+    <None Include="files\highScores.csv" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="files\Here.txt" />
+    <Content Include="files\Here2.txt" />
+    <Content Include="files\Here3.txt" />
+    <Content Include="files\Here4.txt" />
     <Content Include="files\some_data.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
