@@ -38,7 +38,7 @@ namespace TheCPlayersGuide
         }
         public IEnumerator GetEnumerator()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
     }
 }
