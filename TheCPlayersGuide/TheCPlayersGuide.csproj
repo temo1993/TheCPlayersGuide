@@ -55,6 +55,7 @@
     <Compile Include="Fibonacci.cs" />
     <Compile Include="FileWriteRead.cs" />
     <Compile Include="FizzBuzz.cs" />
+    <Compile Include="GenericsTest.cs" />
     <Compile Include="inheritanseTest\Animal.cs" />
     <Compile Include="inheritanseTest\AnimalMain.cs" />
     <Compile Include="inheritanseTest\Cat.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="PartialTest\PartialClass1.cs" />
     <Compile Include="PartialTest\PartialMain.cs" />
     <Compile Include="PositiveNegative.cs" />
+    <Compile Include="PracticeList.cs" />
     <Compile Include="PrintAPyramid.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="PropertiesTest.cs" />
