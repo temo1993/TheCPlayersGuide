@@ -73,6 +73,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="PropertiesTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RefOutExample.cs" />
     <Compile Include="SimpleCalculator.cs" />
     <Compile Include="StructTest.cs" />
     <Compile Include="CopyArrayAndAddNewItem.cs" />
