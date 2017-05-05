@@ -9,27 +9,27 @@ namespace TheCPlayersGuide
         // When we use two gener. type parameters we can specify that one must be derived from another _where T : U_.
         // So T has be a child of U
     {
-        private T[] items;
+        private T[] _items;
 
         public PracticeList()
         {
-            items = new T[0];
+            _items = new T[0];
         }
 
         public T GetItem(int index)
         {
-            return items[index];
+            return _items[index];
         }
 
         public void Add(T newItem)
         {
-            T[] newItems = new T[items.Length + 1];
-            for (int index = 0; index < items.Length; index++)
+            T[] newItems = new T[_items.Length + 1];
+            for (int index = 0; index < _items.Length; index++)
             {
-                newItems[index] = items[index];
+                newItems[index] = _items[index];
             }
             newItems[newItems.Length - 1] = newItem;
-            items = newItems;
+            _items = newItems;
         }
 
         public T LoadObject(string fileName)
