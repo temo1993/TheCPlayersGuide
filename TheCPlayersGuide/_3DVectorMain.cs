@@ -18,6 +18,17 @@ namespace TheCPlayersGuide
             Console.WriteLine(new _3DVector(2, 4, 6) / 2);
 
             Console.ReadKey();
+
+
+            _3DVector vector = new _3DVector(5, 2, 2);
+            double xComponent = vector[0]; // Use indexing to set the x variable.
+            double yComponent = vector[1]; // Use indexing to set the y variable.
+            double zComponent = vector[2]; // Use indexing to set the z variable.
+
+            _3DVector vector2 = new _3DVector(5, 2, 2);
+            double xComponent2 = vector2["x"]; // Indexing operator with strings.
+            double yComponent2 = vector2["y"]; 
+            double zComponent2 = vector2["z"]; 
         }
     }
 }

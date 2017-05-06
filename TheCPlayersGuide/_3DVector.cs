@@ -9,10 +9,49 @@ namespace TheCPlayersGuide
         /// </summary>
         class _3DVector
         {
-            /// <summary>
-            /// Gets or sets the x component of the vector.
-            /// </summary>
-            public double X { get; set; }
+
+            // Indexer
+            public double this[int index]
+            {
+                get
+                {
+                    if (index == 0) { return X; }
+                    if (index == 1) { return Y; }
+                    if (index == 2) { return Z; }
+                    throw new IndexOutOfRangeException();
+                }
+                set
+                {
+                    if (index == 0) { X = value; }
+                    if (index == 1) { Y = value; }
+                    if (index == 2) { Z = value; }
+                    throw new IndexOutOfRangeException();
+                }
+            }
+
+
+            public double this[string component]
+            {
+                get
+                {
+                    if (component == "x") { return X; }
+                    if (component == "y") { return Y; }
+                    if (component == "z") { return Z; }
+                    throw new IndexOutOfRangeException();
+                }
+                set
+                {
+                    if (component == "x") { X = value; }
+                    if (component == "y") { Y = value; }
+                    if (component == "z") { Z = value; }
+                    throw new IndexOutOfRangeException();
+                }
+            }
+
+        /// <summary>
+        /// Gets or sets the x component of the vector.
+        /// </summary>
+        public double X { get; set; }
 
             /// <summary>
             /// Gets or sets the y component of the vector.
