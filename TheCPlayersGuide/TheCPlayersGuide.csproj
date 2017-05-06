@@ -52,6 +52,7 @@
     <Compile Include="DaysOfWeek.cs" />
     <Compile Include="DieRolling.cs" />
     <Compile Include="EvenOdd.cs" />
+    <Compile Include="ExceptionsTest.cs" />
     <Compile Include="FactorialRecursion.cs" />
     <Compile Include="Fibonacci.cs" />
     <Compile Include="FileWriteRead.cs" />
