@@ -62,6 +62,8 @@
     <Compile Include="inheritanseTest\AnimalMain.cs" />
     <Compile Include="inheritanseTest\Cat.cs" />
     <Compile Include="inheritanseTest\Dog.cs" />
+    <Compile Include="LogEvent.cs" />
+    <Compile Include="LogEventHandler.cs" />
     <Compile Include="MathDelegate.cs" />
     <Compile Include="MathDelegateMain.cs" />
     <Compile Include="MonthsEnum.cs" />
