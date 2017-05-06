@@ -71,6 +71,8 @@
     <Compile Include="PartialTest\PartialClass.cs" />
     <Compile Include="PartialTest\PartialClass1.cs" />
     <Compile Include="PartialTest\PartialMain.cs" />
+    <Compile Include="Point.cs" />
+    <Compile Include="PointMain.cs" />
     <Compile Include="PositiveNegative.cs" />
     <Compile Include="PracticeList.cs" />
     <Compile Include="PrintAPyramid.cs" />
