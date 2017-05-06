@@ -86,7 +86,10 @@
     <Compile Include="StructTest.cs" />
     <Compile Include="CopyArrayAndAddNewItem.cs" />
     <Compile Include="ListAddRemove.cs" />
+    <Compile Include="Vector.cs" />
     <Compile Include="XMLDocumentationComment.cs" />
+    <Compile Include="_3DVectorMain.cs" />
+    <Compile Include="_3DVector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
