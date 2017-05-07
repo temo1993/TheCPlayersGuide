@@ -2,7 +2,7 @@
 
 namespace TheCPlayersGuide
 {
-    public class _3DVectorMain
+    internal class _3DVectorMain
     {
         static void Main_(string[] args)
         {

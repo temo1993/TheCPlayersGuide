@@ -7,7 +7,7 @@ namespace TheCPlayersGuide
         /// and z component. This also implements a variety of 
         /// operators, to make it easy to do math with it.
         /// </summary>
-        class _3DVector
+        internal class _3DVector
         {
 
             // Indexer
