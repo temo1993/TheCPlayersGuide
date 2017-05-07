@@ -35,6 +35,12 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.3.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.3.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,6 +54,7 @@
     <Compile Include="BinaryFileReadWriteTest.cs" />
     <Compile Include="ColoredBalls.cs" />
     <Compile Include="Color.cs" />
+    <Compile Include="LineCounter.cs" />
     <Compile Include="Cylinders.cs" />
     <Compile Include="DaysOfWeek.cs" />
     <Compile Include="Dictionary.cs" />
@@ -85,6 +92,7 @@
     <Compile Include="ReadWriteTest2.cs" />
     <Compile Include="RefOutExample.cs" />
     <Compile Include="SimpleCalculator.cs" />
+    <Compile Include="StringExtensions.cs" />
     <Compile Include="StructTest.cs" />
     <Compile Include="CopyArrayAndAddNewItem.cs" />
     <Compile Include="ListAddRemove.cs" />
@@ -97,12 +105,14 @@
     <None Include="App.config" />
     <None Include="files\country_capital.csv" />
     <None Include="files\highScores.csv" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="files\Here.txt" />
     <Content Include="files\Here2.txt" />
     <Content Include="files\Here3.txt" />
     <Content Include="files\Here4.txt" />
+    <Content Include="files\SomeText.txt" />
     <Content Include="files\some_data.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
