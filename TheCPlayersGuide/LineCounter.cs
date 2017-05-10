@@ -9,8 +9,7 @@ namespace TheCPlayersGuide
         static void Main_(string[] args)
         {
             string directory = @"C:\Users\Temo\Source\Repos\TheCPlayersGuide\TheCPlayersGuide";
-            Console.WriteLine(CountLinesOfCode(directory));
-            Console.ReadKey();
+            Console.WriteLine("Project contains " + CountLinesOfCode(directory) + " lines of code.");
         }
 
         /// <summary>
