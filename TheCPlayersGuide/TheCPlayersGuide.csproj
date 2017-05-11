@@ -54,6 +54,7 @@
     <Compile Include="BinaryFileReadWriteTest.cs" />
     <Compile Include="ColoredBalls.cs" />
     <Compile Include="Color.cs" />
+    <Compile Include="LambdaExample.cs" />
     <Compile Include="LineCounter.cs" />
     <Compile Include="Cylinders.cs" />
     <Compile Include="DaysOfWeek.cs" />
