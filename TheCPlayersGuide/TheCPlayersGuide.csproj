@@ -81,6 +81,7 @@
     <Compile Include="PartialTest\PartialClass.cs" />
     <Compile Include="PartialTest\PartialClass1.cs" />
     <Compile Include="PartialTest\PartialMain.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="PointMain.cs" />
     <Compile Include="PositiveNegative.cs" />
