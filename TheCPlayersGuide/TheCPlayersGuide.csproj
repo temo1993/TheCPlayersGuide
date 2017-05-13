@@ -54,6 +54,8 @@
     <Compile Include="BinaryFileReadWriteTest.cs" />
     <Compile Include="ColoredBalls.cs" />
     <Compile Include="Color.cs" />
+    <Compile Include="FrogRaceAdvanced.cs" />
+    <Compile Include="FrogRacing.cs" />
     <Compile Include="LambdaExample.cs" />
     <Compile Include="LineCounter.cs" />
     <Compile Include="Cylinders.cs" />
