@@ -101,6 +101,7 @@
     <Compile Include="CopyArrayAndAddNewItem.cs" />
     <Compile Include="ListAddRemove.cs" />
     <Compile Include="ThreadTest.cs" />
+    <Compile Include="TryItOut\EncryptDecrypt.cs" />
     <Compile Include="Vector.cs" />
     <Compile Include="XMLDocumentationComment.cs" />
     <Compile Include="_3DVectorMain.cs" />
@@ -119,7 +120,15 @@
     <Content Include="files\Here4.txt" />
     <Content Include="files\SomeText.txt" />
     <Content Include="files\some_data.txt" />
+    <Content Include="TryItOut\files\decrypted\DecryptedSampleText3.txt" />
+    <Content Include="TryItOut\files\input\SampleText.txt" />
+    <Content Include="TryItOut\files\input\SampleText2.txt" />
+    <Content Include="TryItOut\files\input\SampleText3.txt" />
+    <Content Include="TryItOut\files\output\OutputSampleText.txt" />
+    <Content Include="TryItOut\files\output\OutputSampleText2.txt" />
+    <Content Include="TryItOut\files\output\OutputSampleText3.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
